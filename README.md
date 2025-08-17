@@ -16,7 +16,7 @@
 ### 🌐 Site web (Gestion des OR)
 Vous devrez l'upload sur un hebergeur 
 
-- Création d’**ordres de réparation (OR)** en ligne  
+- Gestion d’**ordres de réparation (OR)** en ligne  
 - Suivi en temps réel de l’avancement (diagnostic, en réparation, terminé)  
 - Historique des interventions par véhicule et par client  
 - Suivi des coûts, du temps passé et des revenus générés  
