@@ -20,4 +20,10 @@
 - Suivi des coûts, du temps passé et des revenus générés  
 - Notifications pour clients et mécanos  
 
+### 🌐 Dépendence
+- ESX Legacy 
+- Ox_inventory
+- Ox_lib
+- Ox_target
+   
 ---
