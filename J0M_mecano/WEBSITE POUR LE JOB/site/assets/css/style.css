@@ -1,0 +1,156 @@
+
+body {
+    margin: 0;
+    font-family: 'Orbitron', sans-serif; 
+    background: #111; 
+    color: #fff; 
+}
+
+.container {
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #ffc107; 
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background: #222; 
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+th, td {
+    padding: 15px; 
+    text-align: center;
+    border-bottom: 1px solid #444; 
+}
+
+th {
+    background-color: #333;
+    color: #ffcc00;
+}
+
+td {
+    background-color: #222;
+}
+
+a {
+    color: #ffcc00;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #ffaa00; 
+}
+
+button {
+    margin-top: 20px;
+    background-color: #ffcc00; 
+    color: #000; 
+    padding: 10px 20px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px; 
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #ffaa00; 
+}
+
+form input[type="text"] {
+    padding: 12px;
+    margin-top: 10px;
+    background-color: #333;
+    color: #fff;
+    border: 1px solid #444;
+    border-radius: 5px;
+    width: calc(100% - 140px); 
+}
+
+form button[type="submit"] {
+    background-color: #ffcc00;
+    color: #000;
+    width: 120px;
+    margin-left: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+form button[type="submit"]:hover {
+    background-color: #ffaa00;
+}
+
+.error, .confirmation {
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.error {
+    color: #e74c3c; 
+}
+
+.confirmation {
+    color: #2ecc71; 
+}
+
+@media screen and (max-width: 768px) {
+    table, form {
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 28px; 
+    }
+
+    form input[type="text"], form button[type="submit"] {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    td, th {
+        padding: 8px; 
+    }
+}
+
+form {
+    padding: 20px;
+    text-align: center;
+    flex-grow: 1; 
+}
+h2 {
+    text-align: center;
+}
+.btn-save {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.btn-save:hover {
+    background-color: #45a049;
+}
+.footer {
+    /* position: fixed; */
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    font-size: 14px;
+}
